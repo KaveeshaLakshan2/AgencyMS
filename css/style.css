@@ -9837,3 +9837,100 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+
+/* form css */
+
+.wl-contact-wrapper {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    display: flex;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* FORM AREA */
+.wl-form-area {
+    flex: 1;
+    padding: 40px;
+}
+
+.wl-title {
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+
+.wl-form {
+    width: 100%;
+}
+
+.wl-row-group {
+    display: flex;
+    gap: 20px;
+}
+
+.wl-input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.wl-full {
+    width: 100%;
+}
+
+.wl-textarea {
+    height: 150px;
+    resize: none;
+}
+
+.wl-btn {
+    padding: 12px 25px;
+    background: #7AB730;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.wl-btn:hover {
+    background: #6aa028;
+}
+
+/* INFO AREA */
+.wl-info-area {
+    width: 40%;
+    background: #7AB730;
+    color: #fff;
+    padding: 40px;
+}
+
+.wl-title-light {
+    color: #fff;
+}
+
+.wl-info-block {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+}
+
+.wl-icon-box {
+    width: 45px;
+    height: 45px;
+    background: rgba(255,255,255,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 20px;
+}
+/* form css end*/
